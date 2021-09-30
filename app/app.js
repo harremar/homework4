@@ -66,7 +66,6 @@ function initListeners(){
 function showAlert(info) {
     console.log("Email: " + info);
     $("#email-text").val("");
-    $("#password-text").val("");
 }
 function showAlert2(info2) {
     console.log("Password: " + info2);
