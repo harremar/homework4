@@ -841,6 +841,7 @@ footer #footer-email-btn:hover {
     max-width: 400px;
     height: 400px;
     padding: 30px;
+    margin-bottom: 100px;
   }
   .items .image {
     max-width: 300px;
