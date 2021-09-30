@@ -1,0 +1,117 @@
+.about {
+  width: 100%;
+  min-height: 800px;
+  //   background-color: antiquewhite;
+
+  &__title {
+    width: 100%;
+    min-height: 300px;
+    background-color: #33d93f;
+    text-align: center;
+    padding-top: 100px;
+
+    h1 {
+      font-size: 40px;
+      font-family: openB;
+      color: white;
+    }
+    &__btn {
+      width: 120px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 0 auto;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: openR;
+        font-size: 16px;
+        transition: 0.5;
+      }
+    }
+    &__btn:hover {
+      background-color: black;
+      a:hover {
+        font-family: openR;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__rCompany {
+    width: 100%;
+    min-height: 400px;
+    // background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__text {
+      max-width: 600px;
+      min-height: 300px;
+      //   background-color: aquamarine;
+      padding: 20px;
+      h1 {
+        font-family: openB;
+        font-size: 30px;
+        color: black;
+      }
+      p {
+        font-family: openR;
+        font-size: 18px;
+        color: black;
+      }
+    }
+    &__image {
+      width: 400px;
+      min-height: 300px;
+      background-color: blueviolet;
+      &--rCompany {
+        width: 400px;
+        min-height: 300px;
+        background-image: url(../images/r.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &--about {
+        width: 400px;
+        min-height: 300px;
+        background-image: url(../images/about.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .about__rCompany {
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    // background-color: aqua;
+
+    &__image {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    &__text {
+      max-width: 300px;
+      padding: 15px;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .about__title {
+    height: 370px;
+  }
+}

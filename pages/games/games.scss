@@ -1,0 +1,185 @@
+.games-content {
+  width: 100%;
+  min-height: 800px;
+  background-color: white;
+
+  .category {
+    margin-top: 100px;
+    min-width: 300px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    // background-color: aqua;
+
+    h1 {
+      width: 350px;
+      text-align: center;
+      margin: 0 auto;
+      font-family: openR;
+      font-size: 40px;
+      padding-bottom: 30px;
+    }
+  }
+
+  .games-holder {
+    width: 100%;
+    min-height: 430px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+    .games {
+      width: 350px;
+      min-height: 550px;
+      // background-color: black;
+
+      .minecraft {
+        max-width: 350px;
+        min-height: 400px;
+        background-image: url(../images/minecraft.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .nba {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/nba.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .cod {
+        max-width: 350px;
+        min-height: 400px;
+        background-image: url(../images/cod.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .mario {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/mario.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .rocket {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/rocket.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .mortal {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/mortal.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .spider {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/spider.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .fortnite {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/fortnite.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .destiny {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/destiny.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .cook {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/cook.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .animal {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/animal.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .zelda {
+        max-width: 350px;
+        height: 400px;
+        background-image: url(../images/zelda.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .text-holder {
+        width: 350px;
+        height: 150px;
+        // background-color: antiquewhite;
+        padding: 15px 0 15px 0;
+
+        h1 {
+          font-family: openB;
+          font-size: 20px;
+        }
+        p {
+          font-family: openR;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .games-content {
+    .games-holder {
+      flex-direction: column;
+      min-height: 100vh;
+      // background-color: aqua;
+
+      .games {
+        max-width: 500px;
+        margin: 20px auto;
+      }
+    }
+  }
+  .category {
+    width: 350px;
+    margin: 0 auto;
+    // background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h1 {
+      justify-content: center;
+      width: 350px;
+      margin: 0 auto;
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@font-face {
+  font-family: OpenR;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenB;
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenI;
+  src: url(fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: OpenL;
+  src: url(fonts/OpenSans-Light.ttf);
+}

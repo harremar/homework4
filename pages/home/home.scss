@@ -1,0 +1,188 @@
+.home-content {
+  width: 100%;
+  min-height: 1600px;
+  // background-color: cadetblue;
+
+  .big-items {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .items {
+      width: 800px;
+      height: 700px;
+      // background-color: gray;
+      .image {
+        width: 800px;
+        height: 600px;
+        background-image: url(../images/release.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image2 {
+        width: 800px;
+        height: 600px;
+        background-image: url(../images/preorder.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .diamond {
+        width: 800px;
+        height: 600px;
+        background-image: url(../images/diamond.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .pearl {
+        width: 800px;
+        height: 600px;
+        background-image: url(../images/pearl.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .text-holder {
+        width: 100%;
+        height: 700px;
+        // margin-top: 20px;
+
+        h1 {
+          font-size: 30px;
+          font-family: openB;
+        }
+        p {
+          font-size: 18px;
+          font-family: openI;
+        }
+      }
+    }
+  }
+
+  .topseller {
+    width: 100%;
+    min-height: 450px;
+    // background-color: indigo;
+    .title {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      h1 {
+        font-size: 30px;
+        font-family: openB;
+      }
+    }
+    .seller-holder {
+      width: 100%;
+      min-height: 400px;
+      // background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .seller {
+        width: 300px;
+        min-height: 350px;
+        // background-color: antiquewhite;
+        .quest {
+          width: 300px;
+          height: 300px;
+          background-image: url(../images/quest.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .switch {
+          width: 300px;
+          height: 300px;
+          background-image: url(../images/switch.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .controller {
+          width: 300px;
+          height: 300px;
+          background-image: url(../images/controller.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .headset {
+          width: 300px;
+          height: 300px;
+          background-image: url(../images/headset.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .wireless {
+          width: 300px;
+          height: 300px;
+          background-image: url(../images/wireless.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        h2 {
+          padding-top: 15px;
+          font-size: 18px;
+          font-family: openR;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .big-items {
+    display: flex;
+    flex-direction: column;
+    min-height: 1600px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .seller-holder {
+    display: flex;
+    flex-direction: column;
+    min-height: 2000px;
+    .seller {
+      margin: 10px 0 10px 0;
+    }
+  }
+  .home-content {
+    height: 5200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .items {
+    max-width: 400px;
+    height: 400px;
+    // background-color: aqua;
+
+    .image {
+      max-width: 400px;
+      height: 400px;
+    }
+    .image2 {
+      max-width: 400px;
+      height: 400px;
+    }
+    .pearl {
+      max-width: 400px;
+      height: 200px;
+    }
+    .diamond {
+      max-width: 400px;
+      height: 200px;
+    }
+  }
+}

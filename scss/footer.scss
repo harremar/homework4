@@ -1,0 +1,109 @@
+footer {
+  width: 100%;
+  background-color: black;
+
+  .footer-container {
+    bacground-color: black;
+    width: 100%;
+    //   padding: 4rem 0 4rem 0;
+  }
+
+  .footer {
+    width: 80%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+
+    h2 {
+      margin-bottom: 10px;
+      font-family: openR;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-family: openR;
+    }
+    a:hover {
+      color: $site-green;
+      transition: 0.3s ease-out;
+    }
+  }
+  .footer-email-form h2 {
+    margin-bottom: 2rem;
+    font-family: openR;
+  }
+
+  #footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(240, 240, 240);
+  }
+  #footer-email::placeholder {
+    color: #000;
+    font-family: openR;
+  }
+  #footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: $site-green;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: openR;
+  }
+
+  #footer-email-btn:hover {
+    cursor: pointer;
+    background-color: #2b2f3d;
+    transition: all 0.4s ease-out;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .footer-container {
+    // bacground-color: #213329;
+    // padding-bottom: 400px;
+    min-height: 800px;
+    flex-direction: column;
+  }
+  .footer {
+    height: 50vh;
+    // padding-bottom: 400px;
+  }
+  .footer-email-form {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .footer-3 {
+    display: none;
+  }
+  .footer-email-form {
+    margin-top: 4rem;
+  }
+}
