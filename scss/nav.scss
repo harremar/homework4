@@ -43,3 +43,26 @@ nav a {
   color: white;
   font-family: openR;
 }
+
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    min-height: 667px;
+  }
+  .logo {
+    // background-color: beige;
+
+    margin-right: 50px;
+    margin-top: 50px;
+    // margin-bottom: 30px;
+  }
+  .links {
+    flex-direction: column;
+    width: 400px;
+    // background-color: aqua;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-left: 50px;
+    padding-bottom: 50px;
+  }
+}

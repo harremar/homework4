@@ -123,6 +123,32 @@ nav a {
   font-family: openR;
 }
 
+@media only screen and (max-width: 800px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 667px;
+  }
+
+  .logo {
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 400px;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-left: 50px;
+    padding-bottom: 50px;
+  }
+}
 footer {
   width: 100%;
   background-color: black;
@@ -228,12 +254,17 @@ footer #footer-email-btn:hover {
 }
 
 @media screen and (max-width: 1150px) {
+  footer {
+    min-height: 900px;
+  }
+
   .footer-container {
     min-height: 800px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 80px;
   }
 
   .footer {
@@ -658,7 +689,7 @@ footer #footer-email-btn:hover {
 }
 .home-content .big-items .items .text-holder {
   width: 100%;
-  height: 700px;
+  height: 100px;
 }
 .home-content .big-items .items .text-holder h1 {
   font-size: 30px;
@@ -805,6 +836,41 @@ footer #footer-email-btn:hover {
     height: 200px;
   }
 }
+@media (max-width: 800px) {
+  .items {
+    max-width: 400px;
+    height: 400px;
+    padding: 30px;
+  }
+  .items .image {
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .items .image2 {
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .items .pearl {
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .items .diamond {
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .items .text-holder {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .big-items {
+    padding-bottom: 100px;
+  }
+}
 .about {
   width: 100%;
   min-height: 800px;
@@ -916,6 +982,10 @@ footer #footer-email-btn:hover {
   .about__rCompany__image {
     max-width: 500px;
     margin: 20px auto;
+    padding: 30px;
+  }
+  .about__rCompany__image--about {
+    display: none;
   }
   .about__rCompany__text {
     max-width: 300px;

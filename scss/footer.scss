@@ -80,11 +80,15 @@ footer {
 }
 
 @media screen and (max-width: 1150px) {
+  footer {
+    min-height: 900px;
+  }
   .footer-container {
     // bacground-color: #213329;
     // padding-bottom: 400px;
     min-height: 800px;
     flex-direction: column;
+    margin-bottom: 80px;
   }
   .footer {
     height: 50vh;
