@@ -33,6 +33,8 @@ function initListeners(){
         gsap.to($(".modal"), { scale : 0, duration: 0, onComplete: showAlert2, onCompleteParams: [text2]});
 
         $(".btn").css("display", "none");
+
+        // $("#loginModal").style.innerHTML("signed in");
         console.log("you are signed in")
     });
 
