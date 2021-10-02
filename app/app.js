@@ -32,7 +32,8 @@ function initListeners(){
         let text2 = $("#password-text").val();
         gsap.to($(".modal"), { scale : 0, duration: 0, onComplete: showAlert2, onCompleteParams: [text2]});
 
-        // $(".btn").css("display", "none");
+        $(".btn").css("display", "none");
+        console.log("you are signed in")
     });
 
     
