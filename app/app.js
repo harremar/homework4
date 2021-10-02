@@ -3,6 +3,7 @@ function addModalListener(){
         // $(".modal").css("display", "none");
         gsap.to($(".modal"), { scale : 0, duration: 0, onComplete: showAlert});
     });
+    $("")
 }
 
 function route(){
@@ -33,9 +34,10 @@ function initListeners(){
         gsap.to($(".modal"), { scale : 0, duration: 0, onComplete: showAlert2, onCompleteParams: [text2]});
 
         $(".btn").css("display", "none");
-
         // $("#loginModal").style.innerHTML("signed in");
-        console.log("you are signed in")
+        console.log("you are signed in");
+        alert("you are signed in");
+
     });
 
     
@@ -48,17 +50,6 @@ function initListeners(){
 
         // $(".modal").css("display", "flex");
         gsap.to($(".modal"), { ease: "ease.out" ,  scale : 1 , duration: 1});
-        addModalListener();
-    });
-
-    $("#signinModal").click(function(e){
-        // $("body").append(`<div class="modal">
-        // <div class="bg-click"></div>
-        // <div class="callout"></div>
-        // </div>`)
-
-        // $(".modal").css("display", "flex");
-        gsap.to($(".modal2"), { ease: "ease.out" ,  scale : 1 , duration: 1});
         addModalListener();
     });
 
